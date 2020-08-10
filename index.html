@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro Anda e Vira!</title>
+    <style type="text/css">
+        canvas {
+            border: 1px solid black;
+            background-color: gray;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas" width="850" height="550"></canvas>
+    <script src="script.js"></script>
+    <img id="pista" src="images\pista.png" height="550" />
+    <img id="carro" src="images\carro.png" hidden="" />
+</body>
+
+</html>
