@@ -1,0 +1,1 @@
+Atividade inicial da disciplina de Computação Gráfica.
